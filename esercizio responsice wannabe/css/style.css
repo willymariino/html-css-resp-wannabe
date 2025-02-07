@@ -129,6 +129,8 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* responsività tablet 768px */
+
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: column;
@@ -148,3 +150,5 @@ img {
     }
 
 }
+
+/* responsività tablet 768px */
