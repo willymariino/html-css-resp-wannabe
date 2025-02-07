@@ -129,11 +129,10 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* responsività tablet 768px */
-
 @media screen and (max-width: 768px) {
-    .row {
-        flex-direction: column;
+
+    .container {
+        width: 100%;
     }
 
     .lessons .col {
@@ -151,4 +150,28 @@ img {
 
 }
 
-/* responsività tablet 768px */
+@media screen and (max-width: 480px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+
+}
